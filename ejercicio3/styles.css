@@ -1,0 +1,31 @@
+body{
+    background-color:blanchedalmond;
+    margin: 0px;
+    padding: 0px;
+}
+#encabezado{
+    margin-bottom: 50px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+#formulario{/*para que el select no ocupe toda la pantalla y centrarlo*/
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#resultado{
+    width: 20%;
+    background-color: beige;
+}
+#resultado img{/*un pequeño zoom a la foto y redonda*/
+    border-radius: 100%;
+    transition:0.5s ease;
+}
+#resultado img:hover{
+    transform: scale(1.05);
+}

@@ -1,0 +1,34 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #181818;
+    color: aliceblue;
+}
+
+#encabezado{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card{
+    background-color: #242424;
+    color: aliceblue;
+}
+
+.card-img-top{ /*aca hago que as imagenes queden iguales*/
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title{
+    color: wheat;
+}
+
+.card-text{
+    color: aliceblue;
+    font-size: 15px;
+}

@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #181818;
+    color: aliceblue;
+}
+
+#encabezado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    margin-bottom: 50px;
+    padding-top: 30px;
+}
+
+#formulario{ 
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 400px;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+#resultado{ /*aca muestro la lista de libros*/
+    width: 50%;
+    margin: 40px auto;
+    color: wheat;
+}
+
+#resultado h4{
+    color: aliceblue;
+    margin-bottom: 15px;
+}
+
+#lista-libros{ /*estilo para la lista desordenada*/
+    color: wheat;
+    line-height: 2;
+}

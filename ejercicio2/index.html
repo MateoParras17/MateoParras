@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./app.js" defer></script>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <!--aca puse un div con h1 y h3 para facilitar el css-->
+    <div id="encabezado">
+        <h1>Pagina Principal</h1>
+        <h3>Ingrese los datos su auto</h3>
+    </div>
+    <!--otro div para el formulario-->
+    <div id="formulario">
+        <form>
+            <div class="mb-3"><!--estos div y class formcontrol son de bootstrap-->
+                <input type="text" class="form-control" placeholder="Marca" id="marca"> 
+            </div>
+            <div class="mb-3"> 
+                <input type="text" class="form-control" placeholder="Modelo" id="modelo"> 
+            </div>
+            <div class="mb-3"> 
+                <input type="number" class="form-control" placeholder="Año" id="año"> 
+            </div>
+            <div class="mb-3"> 
+                <input type="text" class="form-control" placeholder="Color" id="color"> 
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Nuevo/Usado" id="estado"> 
+            </div>
+            <div class="mb-3"> 
+                <input type="number" class="form-control" placeholder="Precio ($)" id="precio">  
+            </div>
+            <button type="button" class="btn btn-outline-primary" onclick="mostrarCoche()">Mostrar</button>
+        </form> 
+    </div>
+    <!--aca un p con span para que no saltee lineas-->
+    <p>Marca: <span id="mostrar-marca"></span></p>
+    <p>Modelo: <span id="mostrar-modelo"></span></p>
+    <p>Año: <span id="mostrar-año"></span></p>
+    <p>Color: <span id="mostrar-color"></span></p>
+    <p>Estado: <span id="mostrar-estado"></span></p>
+    <p>Precio: <span id="mostrar-precio"></span></p>
+    <h3 id="mostrar-edad"></h3>    <!--boton para calcular la edad-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
